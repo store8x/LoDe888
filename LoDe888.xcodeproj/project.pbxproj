@@ -18,6 +18,10 @@
 		139664D3163924B50097E41B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139664D2163924B50097E41B /* Default-568h@2x.png */; };
 		139664D6163924B50097E41B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 139664D5163924B50097E41B /* ViewController.m */; };
 		139664D9163924B50097E41B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 139664D7163924B50097E41B /* ViewController.xib */; };
+		139664E0163925CF0097E41B /* Screen Shot 2012-10-25 at 2.44.18 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 139664DF163925CF0097E41B /* Screen Shot 2012-10-25 at 2.44.18 PM.png */; };
+		139664E7163927820097E41B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139664E6163927820097E41B /* CoreTelephony.framework */; };
+		139664EB163934150097E41B /* soicau.m in Sources */ = {isa = PBXBuildFile; fileRef = 139664E9163934150097E41B /* soicau.m */; };
+		139664EC163934150097E41B /* soicau.xib in Resources */ = {isa = PBXBuildFile; fileRef = 139664EA163934150097E41B /* soicau.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		139664D4163924B50097E41B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		139664D5163924B50097E41B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		139664D8163924B50097E41B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		139664DF163925CF0097E41B /* Screen Shot 2012-10-25 at 2.44.18 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-10-25 at 2.44.18 PM.png"; sourceTree = "<group>"; };
+		139664E5163927760097E41B /* CTMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMessageCenter.h; sourceTree = "<group>"; };
+		139664E6163927820097E41B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		139664E8163934150097E41B /* soicau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soicau.h; sourceTree = "<group>"; };
+		139664E9163934150097E41B /* soicau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = soicau.m; sourceTree = "<group>"; };
+		139664EA163934150097E41B /* soicau.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = soicau.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139664E7163927820097E41B /* CoreTelephony.framework in Frameworks */,
 				139664BD163924B50097E41B /* UIKit.framework in Frameworks */,
 				139664BF163924B50097E41B /* Foundation.framework in Frameworks */,
 				139664C1163924B50097E41B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +67,9 @@
 		139664AD163924B50097E41B = {
 			isa = PBXGroup;
 			children = (
+				139664E6163927820097E41B /* CoreTelephony.framework */,
+				139664E5163927760097E41B /* CTMessageCenter.h */,
+				139664DF163925CF0097E41B /* Screen Shot 2012-10-25 at 2.44.18 PM.png */,
 				139664C2163924B50097E41B /* LoDe888 */,
 				139664BB163924B50097E41B /* Frameworks */,
 				139664B9163924B50097E41B /* Products */,
@@ -89,6 +103,9 @@
 				139664D5163924B50097E41B /* ViewController.m */,
 				139664D7163924B50097E41B /* ViewController.xib */,
 				139664C3163924B50097E41B /* Supporting Files */,
+				139664E8163934150097E41B /* soicau.h */,
+				139664E9163934150097E41B /* soicau.m */,
+				139664EA163934150097E41B /* soicau.xib */,
 			);
 			path = LoDe888;
 			sourceTree = "<group>";
@@ -163,6 +180,8 @@
 				139664D1163924B50097E41B /* Default@2x.png in Resources */,
 				139664D3163924B50097E41B /* Default-568h@2x.png in Resources */,
 				139664D9163924B50097E41B /* ViewController.xib in Resources */,
+				139664E0163925CF0097E41B /* Screen Shot 2012-10-25 at 2.44.18 PM.png in Resources */,
+				139664EC163934150097E41B /* soicau.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,7 @@
 				139664C9163924B50097E41B /* main.m in Sources */,
 				139664CD163924B50097E41B /* AppDelegate.m in Sources */,
 				139664D6163924B50097E41B /* ViewController.m in Sources */,
+				139664EB163934150097E41B /* soicau.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				139664DE163924B50097E41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

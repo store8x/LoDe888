@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *lblResult;
+}
+-(IBAction)check1:(id)sender;
+-(IBAction)check2:(id)sender;
+-(IBAction)check3:(id)sender;
+-(IBAction)check4:(id)sender;
 
 @end
